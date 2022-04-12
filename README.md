@@ -1,24 +1,36 @@
-# ubook-vue-cli
 
-## Project setup
-```
-yarn install
-```
+## Projeto Ubook
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+### Intruções:
 
-### Compiles and minifies for production
-```
-yarn build
-```
+Após clonar o repositório e ir para o seu diretório, deve-se baixar as dependências do projeto:
 
-### Lints and fixes files
-```
-yarn lint
-```
+    yarn
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Para executá-lo em ambiente de desenvolvimento basta digitar o seguinte comando:
+
+    yarn serve
+
+E por fim, acessar a url http://localhost:3000/
+
+Caso deseje gerar um build:
+
+    yarn build
+
+### Lista de tecnologias / dependências utilizadas:
+
+- Vue
+
+- Typescript
+
+- Sass
+
+- Vuex
+
+- ESLint
+
+- Prettier
+
+### Versão em React:
+
+[Link do repositório](https://github.com/thallesgalv/ubook)

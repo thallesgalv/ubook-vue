@@ -1,0 +1,20 @@
+:root {
+  --modalColor: rgba(0, 0, 0, 0.4);
+  --darkColor: #2a2d3b;
+  --blueGreyColor: #9198af;
+  --lineColor: #c0c3d2;
+  --paleGreyColor: #e4e7f4;
+  --backgroundColor: #f8f9fd;
+  --lightRedColor: #fa7268;
+  --lightYellowColor: #dbff90;
+  --lightPinkColor: #fff3f2;
+  --fontPrimary: 'Roboto', sans-serif;
+  --showAnimate: show 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+@keyframes show {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -3rem, 0);
+  }
+}

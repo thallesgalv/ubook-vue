@@ -1,27 +1,37 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js + TypeScript App"/>
+  <div class="styledApp">
+    <Header />
+    <Main>
+      <ContactList />
+    </Main>
+    <FormModal />
+    <DeleteModal />
+  </div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import HelloWorld from './components/HelloWorld.vue'
+import Header from './components/Header.vue'
+import Main from './components/Main.vue'
+import ContactList from './views/ContactList.vue'
+import DeleteModal from './views/DeleteModal.vue'
+import FormModal from './views/FormModal.vue'
 
 export default defineComponent({
   name: 'App',
   components: {
-    HelloWorld
+    Header,
+    Main,
+    ContactList,
+    DeleteModal,
+    FormModal
   }
 })
 </script>
 
 <style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+.styledApp {
+  background-color: var(--backgroundColor);
+  font-family: var(--fontPrimary);
 }
 </style>
